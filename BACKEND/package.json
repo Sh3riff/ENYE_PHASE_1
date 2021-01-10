@@ -1,0 +1,19 @@
+{
+  "name": "enye_backend",
+  "version": "1.0.0",
+  "description": "Backend for the enye phase 1 assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Olowolagba Sheriff",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
