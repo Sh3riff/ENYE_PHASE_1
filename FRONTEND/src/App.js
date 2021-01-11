@@ -6,7 +6,7 @@ import Table from './components/Table';
 function App() {
 
     const { data, isLoading, isError } = useQuery('enyeApi', () =>
-        fetch('http://api.enye.tech/v1/challenge/records')
+        fetch('https://api.enye.tech/v1/challenge/records')
             .then(res => res.json())
     )
 

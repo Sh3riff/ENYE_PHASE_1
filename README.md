@@ -2,8 +2,7 @@
 
 This Repo that holds the solution to Enye - Phase 1 Assignment
 
-[Link to Frontend](https://enye-react-table.herokuapp.com/)
-[Link to Backend](https://enye1-backend.herokuapp.com/)
+[Link to Frontend](https://enye-react-table.herokuapp.com/)  [Link to Backend](https://enye1-backend.herokuapp.com/)
 
 ## About the Frontend
 
