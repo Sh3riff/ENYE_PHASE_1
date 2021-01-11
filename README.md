@@ -2,7 +2,12 @@
 
 This Repo that holds the solution to Enye - Phase 1 Assignment
 
+[Link to Frontend](https://enye-react-table.herokuapp.com/)
 [Link to Backend](https://enye1-backend.herokuapp.com/)
+
+## About the Frontend
+
+The frontend is a a react app that queries a given end Api, and plots the server response on the UI. The App paginates the list, provides search & filter while also allowing users hide columns that are not needed.
 
 ## About the Backend
 
