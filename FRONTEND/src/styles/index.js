@@ -51,12 +51,12 @@ export const ColumnControl = styled.div`
     padding: 20px;
     background: rgba( 255, 255, 255, 0.2 );
     border: solid 1px rgba(255,255,255,0.3);
-    backgroud-clip: padding-box;
+    background-clip: padding-box;
     backdrop-filter: blur(10px );
     width: min(300px, 50vw);
     input{
         margin: 8px;
-        backgroud-color: white;
+        background-color: white;
         color: #009879;
     }
 
