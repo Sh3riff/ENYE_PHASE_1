@@ -40,6 +40,13 @@ export const ToggleButton = styled.button`
     color: #009879;
     padding: 10px;
     margin: 0 5px;
+    display: flex;
+    align-items: center;
+    svg{
+        margin: 0 5px 0 0;
+        height: 1.5em;
+        width: 1.5em;
+    }
 `;
 
 export const ColumnControl = styled.div`

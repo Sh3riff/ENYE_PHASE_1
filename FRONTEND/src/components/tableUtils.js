@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
 import { useAsyncDebounce } from 'react-table';
+import { MdSettings, MdSearch } from "react-icons/md";
 import { SearchBar, ToggleButton, ColumnControl, Toggler } from '../styles';
 
 export const GlobalFilter = ({ filter, setFilter }) => {
@@ -54,10 +55,11 @@ export const HideColumns = ({ allColumns, getToggleHideAllColumnsProps}) => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
-            <ToggleButton onClick={ () =>setIsOpen(!isOpen)}>Show/Hide Column</ToggleButton>
+            <ToggleButton onClick={ () =>setIsOpen(!isOpen)}> <MdSettings />Table Settings</ToggleButton>
             {
                 isOpen &&
                 <ColumnControl>
+                    <p>Show/Hide Columns</p>
                     <Checkbox {...getToggleHideAllColumnsProps()}/> Toggle All
                     {
                         allColumns.map(column => (
